@@ -1,1 +1,1 @@
-python model_launch.py --batch 1
+python3 model_launch.py --batch 1
