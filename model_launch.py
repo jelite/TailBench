@@ -15,12 +15,16 @@ def main():
 
     model = AutoModelForCausalLM.from_pretrained(
         MODEL_NAME,
-        torch_dtype=torch.float16,
+        dtype=torch.float16,
         device_map="auto"
     )
 
     prompts = [f"이것은 배치 {i}번 문장입니다." for i in range(args.batch)]
     inputs = tokenizer(prompts, return_tensors="pt", padding=True).to(model.device)
+
+    # ---------------- Profile Start ----------------
+    torch.cuda.cudart().cudaProfilerStart()
+    torch.cuda.nvtx.range_push("generate")
 
     with torch.no_grad():
         outputs = model.generate(
@@ -30,6 +34,10 @@ def main():
             temperature=0.7,
             pad_token_id=tokenizer.pad_token_id
         )
+
+    torch.cuda.nvtx.range_pop()
+    torch.cuda.cudart().cudaProfilerStop()
+    # ---------------- Profile End ----------------
 
     results = tokenizer.batch_decode(outputs, skip_special_tokens=True)
     for i, res in enumerate(results):
