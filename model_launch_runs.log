@@ -1,0 +1,184 @@
+2025-11-06 04:38:09,618 - INFO - Starting sequential model launch.
+2025-11-06 04:38:09,618 - INFO - Launching model: mistralai/Mistral-7B-Instruct-v0.3 (batch=1)
+2025-11-06 04:38:09,728 - ERROR - Execution failed for model mistralai/Mistral-7B-Instruct-v0.3
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
+    subprocess.run(cmd, check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'mistralai/Mistral-7B-Instruct-v0.3', '--batch', '1']' returned non-zero exit status 1.
+2025-11-06 04:38:09,731 - INFO - Launching model: google-bert/bert-base-uncased (batch=1)
+2025-11-06 04:38:09,810 - ERROR - Execution failed for model google-bert/bert-base-uncased
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
+    subprocess.run(cmd, check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'google-bert/bert-base-uncased', '--batch', '1']' returned non-zero exit status 1.
+2025-11-06 04:38:09,811 - INFO - Launching model: Qwen/Qwen2.5-7B-Instruct (batch=1)
+2025-11-06 04:38:09,891 - ERROR - Execution failed for model Qwen/Qwen2.5-7B-Instruct
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
+    subprocess.run(cmd, check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'Qwen/Qwen2.5-7B-Instruct', '--batch', '1']' returned non-zero exit status 1.
+2025-11-06 04:38:09,891 - INFO - Launching model: Qwen/Qwen2.5-3B-Instruct (batch=1)
+2025-11-06 04:38:09,970 - ERROR - Execution failed for model Qwen/Qwen2.5-3B-Instruct
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
+    subprocess.run(cmd, check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'Qwen/Qwen2.5-3B-Instruct', '--batch', '1']' returned non-zero exit status 1.
+2025-11-06 04:38:09,970 - INFO - Launching model: openai/whisper-large-v3-turbo (batch=1)
+2025-11-06 04:38:10,051 - ERROR - Execution failed for model openai/whisper-large-v3-turbo
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
+    subprocess.run(cmd, check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'openai/whisper-large-v3-turbo', '--batch', '1']' returned non-zero exit status 1.
+2025-11-06 04:38:10,051 - INFO - Launching model: meta-llama/Llama-3.2-1B-Instruct (batch=1)
+2025-11-06 04:38:10,131 - ERROR - Execution failed for model meta-llama/Llama-3.2-1B-Instruct
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
+    subprocess.run(cmd, check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'meta-llama/Llama-3.2-1B-Instruct', '--batch', '1']' returned non-zero exit status 1.
+2025-11-06 04:38:10,132 - INFO - Launching model: meta-llama/Llama-3.2-3B-Instruct (batch=1)
+2025-11-06 04:38:10,212 - ERROR - Execution failed for model meta-llama/Llama-3.2-3B-Instruct
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
+    subprocess.run(cmd, check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'meta-llama/Llama-3.2-3B-Instruct', '--batch', '1']' returned non-zero exit status 1.
+2025-11-06 04:38:10,212 - INFO - Launching model: meta-llama/Llama-3.1-8B-Instruct (batch=1)
+2025-11-06 04:38:10,282 - ERROR - Execution failed for model meta-llama/Llama-3.1-8B-Instruct
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
+    subprocess.run(cmd, check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'meta-llama/Llama-3.1-8B-Instruct', '--batch', '1']' returned non-zero exit status 1.
+2025-11-06 04:38:10,282 - INFO - Launching model: openai/clip-vit-base-patch32 (batch=1)
+2025-11-06 04:38:10,362 - ERROR - Execution failed for model openai/clip-vit-base-patch32
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
+    subprocess.run(cmd, check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'openai/clip-vit-base-patch32', '--batch', '1']' returned non-zero exit status 1.
+2025-11-06 04:38:10,362 - INFO - Launching model: openai/clip-vit-base-patch16 (batch=1)
+2025-11-06 04:38:10,440 - ERROR - Execution failed for model openai/clip-vit-base-patch16
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
+    subprocess.run(cmd, check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'openai/clip-vit-base-patch16', '--batch', '1']' returned non-zero exit status 1.
+2025-11-06 04:38:10,441 - INFO - Launching model: stabilityai/stable-diffusion-xl-base-1.0 (batch=1)
+2025-11-06 04:38:10,521 - ERROR - Execution failed for model stabilityai/stable-diffusion-xl-base-1.0
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
+    subprocess.run(cmd, check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'stabilityai/stable-diffusion-xl-base-1.0', '--batch', '1']' returned non-zero exit status 1.
+2025-11-06 04:38:10,522 - INFO - Launching model: Salesforce/blip-image-captioning-base (batch=1)
+2025-11-06 04:38:10,602 - ERROR - Execution failed for model Salesforce/blip-image-captioning-base
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
+    subprocess.run(cmd, check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'Salesforce/blip-image-captioning-base', '--batch', '1']' returned non-zero exit status 1.
+2025-11-06 04:38:10,602 - INFO - Completed sequential model launch.
+2025-11-06 04:39:09,726 - INFO - Starting sequential model launch.
+2025-11-06 04:39:09,726 - INFO - Launching model: mistralai/Mistral-7B-Instruct-v0.3 (batch=1)
+2025-11-06 04:39:09,806 - ERROR - stderr for mistralai/Mistral-7B-Instruct-v0.3:
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+2025-11-06 04:39:09,806 - ERROR - Execution failed for model mistralai/Mistral-7B-Instruct-v0.3 (exit code 1)
+2025-11-06 04:39:09,806 - INFO - Launching model: google-bert/bert-base-uncased (batch=1)
+2025-11-06 04:39:09,886 - ERROR - stderr for google-bert/bert-base-uncased:
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+2025-11-06 04:39:09,886 - ERROR - Execution failed for model google-bert/bert-base-uncased (exit code 1)
+2025-11-06 04:39:09,886 - INFO - Launching model: Qwen/Qwen2.5-7B-Instruct (batch=1)
+2025-11-06 04:39:09,966 - ERROR - stderr for Qwen/Qwen2.5-7B-Instruct:
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+2025-11-06 04:39:09,966 - ERROR - Execution failed for model Qwen/Qwen2.5-7B-Instruct (exit code 1)
+2025-11-06 04:39:09,966 - INFO - Launching model: Qwen/Qwen2.5-3B-Instruct (batch=1)
+2025-11-06 04:39:10,046 - ERROR - stderr for Qwen/Qwen2.5-3B-Instruct:
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+2025-11-06 04:39:10,047 - ERROR - Execution failed for model Qwen/Qwen2.5-3B-Instruct (exit code 1)
+2025-11-06 04:39:10,047 - INFO - Launching model: openai/whisper-large-v3-turbo (batch=1)
+2025-11-06 04:39:10,125 - ERROR - stderr for openai/whisper-large-v3-turbo:
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+2025-11-06 04:39:10,125 - ERROR - Execution failed for model openai/whisper-large-v3-turbo (exit code 1)
+2025-11-06 04:39:10,125 - INFO - Launching model: meta-llama/Llama-3.2-1B-Instruct (batch=1)
+2025-11-06 04:39:10,206 - ERROR - stderr for meta-llama/Llama-3.2-1B-Instruct:
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+2025-11-06 04:39:10,206 - ERROR - Execution failed for model meta-llama/Llama-3.2-1B-Instruct (exit code 1)
+2025-11-06 04:39:10,206 - INFO - Launching model: meta-llama/Llama-3.2-3B-Instruct (batch=1)
+2025-11-06 04:39:10,286 - ERROR - stderr for meta-llama/Llama-3.2-3B-Instruct:
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+2025-11-06 04:39:10,286 - ERROR - Execution failed for model meta-llama/Llama-3.2-3B-Instruct (exit code 1)
+2025-11-06 04:39:10,286 - INFO - Launching model: meta-llama/Llama-3.1-8B-Instruct (batch=1)
+2025-11-06 04:39:10,366 - ERROR - stderr for meta-llama/Llama-3.1-8B-Instruct:
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+2025-11-06 04:39:10,366 - ERROR - Execution failed for model meta-llama/Llama-3.1-8B-Instruct (exit code 1)
+2025-11-06 04:39:10,366 - INFO - Launching model: openai/clip-vit-base-patch32 (batch=1)
+2025-11-06 04:39:10,446 - ERROR - stderr for openai/clip-vit-base-patch32:
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+2025-11-06 04:39:10,446 - ERROR - Execution failed for model openai/clip-vit-base-patch32 (exit code 1)
+2025-11-06 04:39:10,446 - INFO - Launching model: openai/clip-vit-base-patch16 (batch=1)
+2025-11-06 04:39:10,526 - ERROR - stderr for openai/clip-vit-base-patch16:
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+2025-11-06 04:39:10,527 - ERROR - Execution failed for model openai/clip-vit-base-patch16 (exit code 1)
+2025-11-06 04:39:10,527 - INFO - Launching model: stabilityai/stable-diffusion-xl-base-1.0 (batch=1)
+2025-11-06 04:39:10,607 - ERROR - stderr for stabilityai/stable-diffusion-xl-base-1.0:
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+2025-11-06 04:39:10,607 - ERROR - Execution failed for model stabilityai/stable-diffusion-xl-base-1.0 (exit code 1)
+2025-11-06 04:39:10,607 - INFO - Launching model: Salesforce/blip-image-captioning-base (batch=1)
+2025-11-06 04:39:10,687 - ERROR - stderr for Salesforce/blip-image-captioning-base:
+Traceback (most recent call last):
+  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+2025-11-06 04:39:10,688 - ERROR - Execution failed for model Salesforce/blip-image-captioning-base (exit code 1)
+2025-11-06 04:39:10,688 - INFO - Completed sequential model launch.

@@ -5,9 +5,10 @@ import argparse
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--batch", type=int, default=4, help="배치 크기 (batch size)")
+    parser.add_argument("--model_name", type=str, help="모델 이름")
     args = parser.parse_args()
 
-    MODEL_NAME = "mistralai/Mistral-7B-Instruct-v0.3"
+    MODEL_NAME = args.model_name
 
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, use_fast=False)
     if tokenizer.pad_token is None:
