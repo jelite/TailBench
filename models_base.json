@@ -7,12 +7,6 @@
         "model_size": "7B"
     },
     {
-        "name": "google-bert/bert-base-uncased",
-        "task": "NLP",
-        "type": "Fill-Mask",
-        "model_size": "0.1B"
-    },
-    {
         "name": "Qwen/Qwen2.5-7B-Instruct",
         "task": "NLP",
         "type": "Text Generation",
@@ -23,12 +17,6 @@
         "task": "NLP", 
         "type": "Text Generation",
         "model_size": "3B"
-    },
-    {
-        "name": "openai/whisper-large-v3-turbo",
-        "task": "audio",
-        "type": "Speech-to-Text",
-        "model_size": "0.8B"
     },
     {
         "name": "meta-llama/Llama-3.2-1B-Instruct",
@@ -47,26 +35,6 @@
         "task": "NLP",
         "type": "Text Generation",
         "model_size": "8B"
-    },
-    {
-        "name": "openai/clip-vit-base-patch32",
-        "task": "computer vision",
-        "type": "Zero-Shot Image Classification"
-    },
-    {
-        "name": "openai/clip-vit-base-patch16",
-        "task": "computer vision",
-        "type": "Zero-Shot Image Classification"
-    },
-    {
-        "name": "stabilityai/stable-diffusion-xl-base-1.0",
-        "task": "computer vision",
-        "type": "Text-to-Image"
-    },
-    {
-        "name": "Salesforce/blip-image-captioning-base",
-        "task": "computer vision",
-        "type": "Image-to-Text"
     }
   ]
 }

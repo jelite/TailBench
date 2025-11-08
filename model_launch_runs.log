@@ -1,184 +1,1545 @@
-2025-11-06 04:38:09,618 - INFO - Starting sequential model launch.
-2025-11-06 04:38:09,618 - INFO - Launching model: mistralai/Mistral-7B-Instruct-v0.3 (batch=1)
-2025-11-06 04:38:09,728 - ERROR - Execution failed for model mistralai/Mistral-7B-Instruct-v0.3
+2025-11-07 08:04:12,714 - INFO - Starting sequential model launch.
+2025-11-07 08:04:12,714 - INFO - Launching model: mistralai/Mistral-7B-Instruct-v0.3 (batch=1)
+2025-11-07 08:04:31,999 - INFO - stdout for mistralai/Mistral-7B-Instruct-v0.3:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-f25a.qdstrm'
+
+[1/1] [0%                          ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-repProcessing events...
+
+[1/1] [0%                          ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [==21%                       ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [==========49%               ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [==================77%       ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [==================78%       ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [====28%                     ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [==21%                       ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [=17%                        ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [14%                         ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [12%                         ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [10%                         ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [9%                          ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [8%                          ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [7%                          ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [14%                         ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [==21%                       ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [====28%                     ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [======35%                   ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [========42%                 ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [==========49%               ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [============56%             ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [==============63%           ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [================70%         ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [==================77%       ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [====================83%     ] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [========================100%] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+[1/1] [========================100%] mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/mistralai_Mistral-7B-Instruct-v0.3_b1.nsys-rep
+2025-11-07 08:04:31,999 - ERROR - stderr for mistralai/Mistral-7B-Instruct-v0.3:
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.44s/it]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.47s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.42s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.43s/it]
+2025-11-07 08:04:31,999 - ERROR - Execution failed for model mistralai/Mistral-7B-Instruct-v0.3 (exit code 143)
+2025-11-07 08:04:31,999 - INFO - Launching model: mistralai/Mistral-7B-Instruct-v0.3 (batch=2)
+2025-11-07 08:04:51,601 - INFO - stdout for mistralai/Mistral-7B-Instruct-v0.3:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-4f00.qdstrm'
+
+[1/1] [0%                          ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-repProcessing events...
+
+[1/1] [0%                          ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [==20%                       ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [==========48%               ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [==================77%       ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [==================78%       ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [===================79%      ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [====28%                     ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [==21%                       ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [=17%                        ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [14%                         ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [12%                         ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [10%                         ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [9%                          ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [8%                          ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [7%                          ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [=15%                        ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [===22%                      ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [=====30%                    ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [=======38%                  ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [=========45%                ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [===========53%              ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [=============60%            ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [================68%         ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [==================75%       ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [====================83%     ] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [========================100%] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+[1/1] [========================100%] mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/mistralai_Mistral-7B-Instruct-v0.3_b2.nsys-rep
+2025-11-07 08:04:51,601 - ERROR - stderr for mistralai/Mistral-7B-Instruct-v0.3:
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.46s/it]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.49s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.44s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.45s/it]
+2025-11-07 08:04:51,601 - ERROR - Execution failed for model mistralai/Mistral-7B-Instruct-v0.3 (exit code 143)
+2025-11-07 08:04:51,601 - INFO - Launching model: mistralai/Mistral-7B-Instruct-v0.3 (batch=4)
+2025-11-07 08:05:12,560 - INFO - stdout for mistralai/Mistral-7B-Instruct-v0.3:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-021f.qdstrm'
+
+[1/1] [0%                          ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-repProcessing events...
+
+[1/1] [0%                          ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [==20%                       ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [==========49%               ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [==================77%       ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [==================78%       ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [====28%                     ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [==21%                       ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [=17%                        ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [14%                         ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [12%                         ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [10%                         ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [9%                          ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [8%                          ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [7%                          ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [=15%                        ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [===22%                      ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [=====30%                    ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [=======37%                  ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [=========45%                ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [===========52%              ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [=============60%            ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [===============67%          ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [==================75%       ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [===================82%      ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [====================83%     ] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [========================100%] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+[1/1] [========================100%] mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/mistralai_Mistral-7B-Instruct-v0.3_b4.nsys-rep
+2025-11-07 08:05:12,560 - ERROR - stderr for mistralai/Mistral-7B-Instruct-v0.3:
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.46s/it]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:03<00:01,  1.52s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.46s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.47s/it]
+2025-11-07 08:05:12,560 - ERROR - Execution failed for model mistralai/Mistral-7B-Instruct-v0.3 (exit code 143)
+2025-11-07 08:05:12,560 - INFO - Launching model: mistralai/Mistral-7B-Instruct-v0.3 (batch=8)
+2025-11-07 08:05:36,175 - INFO - stdout for mistralai/Mistral-7B-Instruct-v0.3:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-5fd0.qdstrm'
+
+[1/1] [0%                          ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-repProcessing events...
+
+[1/1] [0%                          ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [===22%                      ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [==========49%               ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [==================76%       ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [==================77%       ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [====28%                     ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [==21%                       ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [=17%                        ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [14%                         ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [12%                         ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [10%                         ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [9%                          ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [8%                          ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [7%                          ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [=15%                        ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [===22%                      ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [=====30%                    ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [=======37%                  ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [=========45%                ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [===========52%              ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [=============60%            ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [===============67%          ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [==================75%       ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [===================82%      ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [====================83%     ] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [========================100%] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+[1/1] [========================100%] mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/mistralai_Mistral-7B-Instruct-v0.3_b8.nsys-rep
+2025-11-07 08:05:36,176 - ERROR - stderr for mistralai/Mistral-7B-Instruct-v0.3:
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.44s/it]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.49s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.45s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.45s/it]
+2025-11-07 08:05:36,176 - ERROR - Execution failed for model mistralai/Mistral-7B-Instruct-v0.3 (exit code 143)
+2025-11-07 08:05:36,176 - INFO - Launching model: mistralai/Mistral-7B-Instruct-v0.3 (batch=16)
+2025-11-07 08:06:05,372 - INFO - stdout for mistralai/Mistral-7B-Instruct-v0.3:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-e16b.qdstrm'
+
+[1/1] [0%                          ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-repProcessing events...
+
+[1/1] [0%                          ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [====26%                     ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [==========48%               ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [================71%         ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [=================72%        ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [=================73%        ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [5%                          ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [========42%                 ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [====28%                     ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [==21%                       ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [=17%                        ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [14%                         ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [12%                         ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [10%                         ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [9%                          ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [8%                          ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [7%                          ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [8%                          ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [=15%                        ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [===23%                      ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [=====30%                    ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [=======38%                  ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [=========46%                ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [===========53%              ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [==============61%           ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [================68%         ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [==================76%       ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [====================83%     ] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [========================100%] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+[1/1] [========================100%] mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/mistralai_Mistral-7B-Instruct-v0.3_b16.nsys-rep
+2025-11-07 08:06:05,372 - ERROR - stderr for mistralai/Mistral-7B-Instruct-v0.3:
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:03,  1.55s/it]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:03<00:01,  1.58s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.54s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.55s/it]
+2025-11-07 08:06:05,372 - ERROR - Execution failed for model mistralai/Mistral-7B-Instruct-v0.3 (exit code 143)
+2025-11-07 08:06:05,372 - INFO - Launching model: mistralai/Mistral-7B-Instruct-v0.3 (batch=32)
+2025-11-07 08:06:45,706 - INFO - stdout for mistralai/Mistral-7B-Instruct-v0.3:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-12fc.qdstrm'
+
+[1/1] [0%                          ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-repProcessing events...
+
+[1/1] [0%                          ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [====25%                     ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [=========46%                ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [================68%         ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [================69%         ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [================70%         ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [================71%         ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [=================72%        ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [=================73%        ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [=================74%        ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [5%                          ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [========42%                 ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [====28%                     ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [==21%                       ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [=17%                        ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [14%                         ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [12%                         ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [11%                         ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [9%                          ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [8%                          ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [=15%                        ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [===23%                      ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [=====30%                    ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [=======38%                  ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [=========45%                ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [===========53%              ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [==============61%           ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [================68%         ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [==================76%       ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [====================83%     ] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [========================100%] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+[1/1] [========================100%] mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/mistralai_Mistral-7B-Instruct-v0.3_b32.nsys-rep
+2025-11-07 08:06:45,706 - ERROR - stderr for mistralai/Mistral-7B-Instruct-v0.3:
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.43s/it]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.45s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.41s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.42s/it]
+2025-11-07 08:06:45,706 - ERROR - Execution failed for model mistralai/Mistral-7B-Instruct-v0.3 (exit code 143)
+2025-11-07 08:06:45,706 - INFO - Launching model: Qwen/Qwen2.5-7B-Instruct (batch=1)
+2025-11-07 08:07:04,365 - INFO - stdout for Qwen/Qwen2.5-7B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-ce5a.qdstrm'
+
+[1/1] [0%                          ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-repProcessing events...
+
+[1/1] [0%                          ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [==20%                       ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [==========49%               ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [==================78%       ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [====28%                     ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [==21%                       ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [=17%                        ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [14%                         ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [12%                         ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [10%                         ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [9%                          ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [8%                          ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [=16%                        ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [===24%                      ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [=====32%                    ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [========41%                 ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [==========49%               ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [============57%             ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [===============65%          ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [=================73%        ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [===================81%      ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [====================83%     ] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/Qwen_Qwen2.5-7B-Instruct_b1.nsys-rep
+2025-11-07 08:07:04,365 - ERROR - stderr for Qwen/Qwen2.5-7B-Instruct:
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.12s/it]
+Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.12s/it]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.14s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.10s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.11s/it]
+2025-11-07 08:07:04,365 - ERROR - Execution failed for model Qwen/Qwen2.5-7B-Instruct (exit code 143)
+2025-11-07 08:07:04,365 - INFO - Launching model: Qwen/Qwen2.5-7B-Instruct (batch=2)
+2025-11-07 08:07:23,564 - INFO - stdout for Qwen/Qwen2.5-7B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-4d46.qdstrm'
+
+[1/1] [0%                          ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-repProcessing events...
+
+[1/1] [0%                          ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [==20%                       ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [==========49%               ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [==================78%       ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [===================79%      ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [========42%                 ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [====28%                     ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [==21%                       ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [=17%                        ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [14%                         ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [12%                         ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [10%                         ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [9%                          ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [=17%                        ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [====26%                     ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [======35%                   ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [=========43%                ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [===========52%              ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [==============61%           ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [================69%         ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [==================78%       ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [====================83%     ] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/Qwen_Qwen2.5-7B-Instruct_b2.nsys-rep
+2025-11-07 08:07:23,564 - ERROR - stderr for Qwen/Qwen2.5-7B-Instruct:
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.15s/it]
+Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.16s/it]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.17s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.13s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.14s/it]
+2025-11-07 08:07:23,564 - ERROR - Execution failed for model Qwen/Qwen2.5-7B-Instruct (exit code 143)
+2025-11-07 08:07:23,564 - INFO - Launching model: Qwen/Qwen2.5-7B-Instruct (batch=4)
+2025-11-07 08:07:44,553 - INFO - stdout for Qwen/Qwen2.5-7B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-800d.qdstrm'
+
+[1/1] [0%                          ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-repProcessing events...
+
+[1/1] [0%                          ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [==20%                       ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [==========49%               ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [==================78%       ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [====28%                     ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [==21%                       ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [=17%                        ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [14%                         ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [12%                         ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [10%                         ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [9%                          ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [8%                          ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [9%                          ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [=17%                        ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [====26%                     ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [======35%                   ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [=========43%                ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [===========52%              ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [=============60%            ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [================69%         ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [==================78%       ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [====================83%     ] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/Qwen_Qwen2.5-7B-Instruct_b4.nsys-rep
+2025-11-07 08:07:44,553 - ERROR - stderr for Qwen/Qwen2.5-7B-Instruct:
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.13s/it]
+Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.16s/it]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.19s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.12s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.14s/it]
+2025-11-07 08:07:44,553 - ERROR - Execution failed for model Qwen/Qwen2.5-7B-Instruct (exit code 143)
+2025-11-07 08:07:44,553 - INFO - Launching model: Qwen/Qwen2.5-7B-Instruct (batch=8)
+2025-11-07 08:08:07,576 - INFO - stdout for Qwen/Qwen2.5-7B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-509e.qdstrm'
+
+[1/1] [0%                          ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-repProcessing events...
+
+[1/1] [0%                          ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [==21%                       ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [==========49%               ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [==================76%       ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [==================77%       ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [====28%                     ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [==21%                       ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [=17%                        ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [14%                         ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [12%                         ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [10%                         ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [9%                          ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [8%                          ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [9%                          ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [=17%                        ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [====26%                     ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [======35%                   ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [=========43%                ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [===========52%              ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [=============60%            ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [================69%         ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [==================78%       ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [====================83%     ] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/Qwen_Qwen2.5-7B-Instruct_b8.nsys-rep
+2025-11-07 08:08:07,576 - ERROR - stderr for Qwen/Qwen2.5-7B-Instruct:
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.10s/it]
+Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.11s/it]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.14s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.10s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.11s/it]
+2025-11-07 08:08:07,576 - ERROR - Execution failed for model Qwen/Qwen2.5-7B-Instruct (exit code 143)
+2025-11-07 08:08:07,576 - INFO - Launching model: Qwen/Qwen2.5-7B-Instruct (batch=16)
+2025-11-07 08:08:35,794 - INFO - stdout for Qwen/Qwen2.5-7B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-0b14.qdstrm'
+
+[1/1] [0%                          ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-repProcessing events...
+
+[1/1] [0%                          ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [===22%                      ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [===23%                      ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [==========48%               ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [=================74%        ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [==================75%       ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [==================76%       ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [====28%                     ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [==21%                       ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [=17%                        ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [14%                         ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [12%                         ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [10%                         ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [9%                          ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [8%                          ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [9%                          ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [=17%                        ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [====26%                     ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [======35%                   ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [=========43%                ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [===========52%              ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [=============60%            ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [================69%         ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [==================78%       ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [====================83%     ] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/Qwen_Qwen2.5-7B-Instruct_b16.nsys-rep
+2025-11-07 08:08:35,795 - ERROR - stderr for Qwen/Qwen2.5-7B-Instruct:
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.17s/it]
+Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.14s/it]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.15s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.11s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.13s/it]
+2025-11-07 08:08:35,795 - ERROR - Execution failed for model Qwen/Qwen2.5-7B-Instruct (exit code 143)
+2025-11-07 08:08:35,795 - INFO - Launching model: Qwen/Qwen2.5-7B-Instruct (batch=32)
+2025-11-07 08:09:07,430 - INFO - stdout for Qwen/Qwen2.5-7B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-e5a4.qdstrm'
+
+[1/1] [0%                          ] Qwen_Qwen2.5-7B-Instruct_b32.nsys-repProcessing events...
+
+[1/1] [0%                          ] Qwen_Qwen2.5-7B-Instruct_b32.nsys-rep
+[1/1] [7%                          ] Qwen_Qwen2.5-7B-Instruct_b32.nsys-rep
+[1/1] [8%                          ] Qwen_Qwen2.5-7B-Instruct_b32.nsys-rep
+[1/1] [=15%                        ] Qwen_Qwen2.5-7B-Instruct_b32.nsys-rep
+[1/1] [==21%                       ] Qwen_Qwen2.5-7B-Instruct_b32.nsys-rep
+[1/1] [====26%                     ] Qwen_Qwen2.5-7B-Instruct_b32.nsys-rep
+[1/1] [=======================94%  ] Qwen_Qwen2.5-7B-Instruct_b32.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-7B-Instruct_b32.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-7B-Instruct_b32.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/Qwen_Qwen2.5-7B-Instruct_b32.nsys-rep
+2025-11-07 08:09:07,431 - ERROR - stderr for Qwen/Qwen2.5-7B-Instruct:
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.13s/it]
+Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.13s/it]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.13s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.08s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.10s/it]
 Traceback (most recent call last):
-  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
-    subprocess.run(cmd, check=True)
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'mistralai/Mistral-7B-Instruct-v0.3', '--batch', '1']' returned non-zero exit status 1.
-2025-11-06 04:38:09,731 - INFO - Launching model: google-bert/bert-base-uncased (batch=1)
-2025-11-06 04:38:09,810 - ERROR - Execution failed for model google-bert/bert-base-uncased
+  File "/workspace/TailBench/model_launch.py", line 72, in <module>
+    main()
+  File "/workspace/TailBench/model_launch.py", line 46, in main
+    prefill_out = model(**inputs, use_cache=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/accelerate/hooks.py", line 175, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/generic.py", line 918, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/models/qwen2/modeling_qwen2.py", line 463, in forward
+    logits = self.lm_head(hidden_states[:, slice_indices, :])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/accelerate/hooks.py", line 175, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 9.05 GiB. GPU 1 has a total capacity of 23.60 GiB of which 4.53 GiB is free. Process 2449018 has 19.06 GiB memory in use. Of the allocated memory 10.14 GiB is allocated by PyTorch, and 8.61 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-11-07 08:09:07,431 - ERROR - Execution failed for model Qwen/Qwen2.5-7B-Instruct (exit code 1)
+2025-11-07 08:09:07,431 - INFO - Launching model: Qwen/Qwen2.5-3B-Instruct (batch=1)
+2025-11-07 08:09:23,991 - INFO - stdout for Qwen/Qwen2.5-3B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-d41a.qdstrm'
+
+[1/1] [0%                          ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-repProcessing events...
+
+[1/1] [0%                          ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [==21%                       ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [==========48%               ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [==================76%       ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [==================77%       ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [==================78%       ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [====28%                     ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [==21%                       ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [=17%                        ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [14%                         ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [12%                         ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [10%                         ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [9%                          ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [8%                          ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [7%                          ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [6%                          ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [12%                         ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [==18%                       ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [===24%                      ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [=====30%                    ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [=======36%                  ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [========42%                 ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [==========48%               ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [============54%             ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [=============60%            ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [===============66%          ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [=================72%        ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [==================78%       ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [====================83%     ] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/Qwen_Qwen2.5-3B-Instruct_b1.nsys-rep
+2025-11-07 08:09:23,991 - ERROR - stderr for Qwen/Qwen2.5-3B-Instruct:
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.37s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.01s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.06s/it]
+2025-11-07 08:09:23,991 - ERROR - Execution failed for model Qwen/Qwen2.5-3B-Instruct (exit code 143)
+2025-11-07 08:09:23,991 - INFO - Launching model: Qwen/Qwen2.5-3B-Instruct (batch=2)
+2025-11-07 08:09:40,511 - INFO - stdout for Qwen/Qwen2.5-3B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-80fa.qdstrm'
+
+[1/1] [0%                          ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-repProcessing events...
+
+[1/1] [0%                          ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [==21%                       ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [==========48%               ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [==================76%       ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [==================77%       ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [==================78%       ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [====28%                     ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [==21%                       ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [=17%                        ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [14%                         ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [12%                         ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [10%                         ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [9%                          ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [8%                          ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [7%                          ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [14%                         ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [==21%                       ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [====27%                     ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [======34%                   ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [========41%                 ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [==========48%               ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [============55%             ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [==============62%           ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [================69%         ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [==================76%       ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [====================83%     ] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/Qwen_Qwen2.5-3B-Instruct_b2.nsys-rep
+2025-11-07 08:09:40,511 - ERROR - stderr for Qwen/Qwen2.5-3B-Instruct:
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.33s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.01it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.04s/it]
+2025-11-07 08:09:40,511 - ERROR - Execution failed for model Qwen/Qwen2.5-3B-Instruct (exit code 143)
+2025-11-07 08:09:40,511 - INFO - Launching model: Qwen/Qwen2.5-3B-Instruct (batch=4)
+2025-11-07 08:09:57,840 - INFO - stdout for Qwen/Qwen2.5-3B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-1ff7.qdstrm'
+
+[1/1] [0%                          ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-repProcessing events...
+
+[1/1] [0%                          ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [==21%                       ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [==========49%               ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [==================77%       ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [==================78%       ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [====28%                     ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [==21%                       ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [=17%                        ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [14%                         ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [12%                         ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [10%                         ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [9%                          ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [8%                          ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [7%                          ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [13%                         ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [==20%                       ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [====27%                     ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [======33%                   ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [========40%                 ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [==========47%               ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [============54%             ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [=============60%            ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [===============67%          ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [=================74%        ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [===================80%      ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [====================83%     ] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/Qwen_Qwen2.5-3B-Instruct_b4.nsys-rep
+2025-11-07 08:09:57,840 - ERROR - stderr for Qwen/Qwen2.5-3B-Instruct:
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.37s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.01s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.06s/it]
+2025-11-07 08:09:57,840 - ERROR - Execution failed for model Qwen/Qwen2.5-3B-Instruct (exit code 143)
+2025-11-07 08:09:57,840 - INFO - Launching model: Qwen/Qwen2.5-3B-Instruct (batch=8)
+2025-11-07 08:10:16,446 - INFO - stdout for Qwen/Qwen2.5-3B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-1980.qdstrm'
+
+[1/1] [0%                          ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-repProcessing events...
+
+[1/1] [0%                          ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [==21%                       ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [==========48%               ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [==================75%       ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [==================76%       ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [==================77%       ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [==================78%       ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [====28%                     ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [==21%                       ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [=17%                        ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [14%                         ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [12%                         ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [10%                         ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [9%                          ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [8%                          ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [7%                          ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [6%                          ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [7%                          ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [13%                         ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [==20%                       ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [====27%                     ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [======33%                   ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [========40%                 ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [==========47%               ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [===========53%              ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [=============60%            ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [===============67%          ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [=================74%        ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [===================80%      ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [====================83%     ] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/Qwen_Qwen2.5-3B-Instruct_b8.nsys-rep
+2025-11-07 08:10:16,447 - ERROR - stderr for Qwen/Qwen2.5-3B-Instruct:
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.35s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.00it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.05s/it]
+2025-11-07 08:10:16,447 - ERROR - Execution failed for model Qwen/Qwen2.5-3B-Instruct (exit code 143)
+2025-11-07 08:10:16,447 - INFO - Launching model: Qwen/Qwen2.5-3B-Instruct (batch=16)
+2025-11-07 08:10:37,555 - INFO - stdout for Qwen/Qwen2.5-3B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-af34.qdstrm'
+
+[1/1] [0%                          ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-repProcessing events...
+
+[1/1] [0%                          ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [===22%                      ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [==========48%               ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [==================75%       ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [==================76%       ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [==================77%       ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [========42%                 ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [====28%                     ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [==21%                       ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [=17%                        ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [14%                         ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [12%                         ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [10%                         ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [9%                          ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [8%                          ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [7%                          ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [13%                         ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [==20%                       ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [====27%                     ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [======33%                   ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [========40%                 ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [==========47%               ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [============54%             ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [=============60%            ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [===============67%          ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [=================74%        ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [===================80%      ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [====================83%     ] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/Qwen_Qwen2.5-3B-Instruct_b16.nsys-rep
+2025-11-07 08:10:37,555 - ERROR - stderr for Qwen/Qwen2.5-3B-Instruct:
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.32s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.01it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.04s/it]
+2025-11-07 08:10:37,555 - ERROR - Execution failed for model Qwen/Qwen2.5-3B-Instruct (exit code 143)
+2025-11-07 08:10:37,555 - INFO - Launching model: Qwen/Qwen2.5-3B-Instruct (batch=32)
+2025-11-07 08:11:03,485 - INFO - stdout for Qwen/Qwen2.5-3B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-e5b9.qdstrm'
+
+[1/1] [0%                          ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-repProcessing events...
+
+[1/1] [0%                          ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [===24%                      ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [==========48%               ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [=================72%        ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [=================73%        ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [=================74%        ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [====28%                     ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [==21%                       ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [=17%                        ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [14%                         ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [12%                         ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [10%                         ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [9%                          ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [8%                          ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [7%                          ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [13%                         ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [==20%                       ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [====27%                     ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [======34%                   ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [========40%                 ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [==========47%               ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [============54%             ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [=============60%            ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [===============67%          ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [=================74%        ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [===================80%      ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [====================83%     ] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+[1/1] [========================100%] Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/Qwen_Qwen2.5-3B-Instruct_b32.nsys-rep
+2025-11-07 08:11:03,485 - ERROR - stderr for Qwen/Qwen2.5-3B-Instruct:
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.36s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.01s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.07s/it]
+2025-11-07 08:11:03,486 - ERROR - Execution failed for model Qwen/Qwen2.5-3B-Instruct (exit code 143)
+2025-11-07 08:11:03,486 - INFO - Launching model: meta-llama/Llama-3.2-1B-Instruct (batch=1)
+2025-11-07 08:11:17,366 - INFO - stdout for meta-llama/Llama-3.2-1B-Instruct:
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-8b0e.qdstrm'
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-1B-Instruct_b1.nsys-repProcessing events...
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-1B-Instruct_b1.nsys-rep
+[1/1] [==18%                       ] meta-llama_Llama-3.2-1B-Instruct_b1.nsys-rep
+[1/1] [==========49%               ] meta-llama_Llama-3.2-1B-Instruct_b1.nsys-rep
+[1/1] [===================80%      ] meta-llama_Llama-3.2-1B-Instruct_b1.nsys-rep
+[1/1] [===================81%      ] meta-llama_Llama-3.2-1B-Instruct_b1.nsys-rep
+[1/1] [====28%                     ] meta-llama_Llama-3.2-1B-Instruct_b1.nsys-rep
+[1/1] [==21%                       ] meta-llama_Llama-3.2-1B-Instruct_b1.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.2-1B-Instruct_b1.nsys-rep
+[1/1] [14%                         ] meta-llama_Llama-3.2-1B-Instruct_b1.nsys-rep
+[1/1] [====28%                     ] meta-llama_Llama-3.2-1B-Instruct_b1.nsys-rep
+[1/1] [========42%                 ] meta-llama_Llama-3.2-1B-Instruct_b1.nsys-rep
+[1/1] [============55%             ] meta-llama_Llama-3.2-1B-Instruct_b1.nsys-rep
+[1/1] [================69%         ] meta-llama_Llama-3.2-1B-Instruct_b1.nsys-rep
+[1/1] [====================83%     ] meta-llama_Llama-3.2-1B-Instruct_b1.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-1B-Instruct_b1.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-1B-Instruct_b1.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/meta-llama_Llama-3.2-1B-Instruct_b1.nsys-rep
+2025-11-07 08:11:17,366 - ERROR - Execution failed for model meta-llama/Llama-3.2-1B-Instruct (exit code 143)
+2025-11-07 08:11:17,366 - INFO - Launching model: meta-llama/Llama-3.2-1B-Instruct (batch=2)
+2025-11-07 08:11:31,059 - INFO - stdout for meta-llama/Llama-3.2-1B-Instruct:
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-6caf.qdstrm'
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-1B-Instruct_b2.nsys-repProcessing events...
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-1B-Instruct_b2.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.2-1B-Instruct_b2.nsys-rep
+[1/1] [==18%                       ] meta-llama_Llama-3.2-1B-Instruct_b2.nsys-rep
+[1/1] [==========49%               ] meta-llama_Llama-3.2-1B-Instruct_b2.nsys-rep
+[1/1] [===================81%      ] meta-llama_Llama-3.2-1B-Instruct_b2.nsys-rep
+[1/1] [========42%                 ] meta-llama_Llama-3.2-1B-Instruct_b2.nsys-rep
+[1/1] [====28%                     ] meta-llama_Llama-3.2-1B-Instruct_b2.nsys-rep
+[1/1] [==21%                       ] meta-llama_Llama-3.2-1B-Instruct_b2.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.2-1B-Instruct_b2.nsys-rep
+[1/1] [=15%                        ] meta-llama_Llama-3.2-1B-Instruct_b2.nsys-rep
+[1/1] [=16%                        ] meta-llama_Llama-3.2-1B-Instruct_b2.nsys-rep
+[1/1] [=====31%                    ] meta-llama_Llama-3.2-1B-Instruct_b2.nsys-rep
+[1/1] [=========46%                ] meta-llama_Llama-3.2-1B-Instruct_b2.nsys-rep
+[1/1] [==============61%           ] meta-llama_Llama-3.2-1B-Instruct_b2.nsys-rep
+[1/1] [==================76%       ] meta-llama_Llama-3.2-1B-Instruct_b2.nsys-rep
+[1/1] [====================83%     ] meta-llama_Llama-3.2-1B-Instruct_b2.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-1B-Instruct_b2.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-1B-Instruct_b2.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/meta-llama_Llama-3.2-1B-Instruct_b2.nsys-rep
+2025-11-07 08:11:31,060 - ERROR - Execution failed for model meta-llama/Llama-3.2-1B-Instruct (exit code 143)
+2025-11-07 08:11:31,060 - INFO - Launching model: meta-llama/Llama-3.2-1B-Instruct (batch=4)
+2025-11-07 08:11:45,481 - INFO - stdout for meta-llama/Llama-3.2-1B-Instruct:
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-407e.qdstrm'
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-1B-Instruct_b4.nsys-repProcessing events...
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-1B-Instruct_b4.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.2-1B-Instruct_b4.nsys-rep
+[1/1] [==========49%               ] meta-llama_Llama-3.2-1B-Instruct_b4.nsys-rep
+[1/1] [===================81%      ] meta-llama_Llama-3.2-1B-Instruct_b4.nsys-rep
+[1/1] [===================82%      ] meta-llama_Llama-3.2-1B-Instruct_b4.nsys-rep
+[1/1] [====28%                     ] meta-llama_Llama-3.2-1B-Instruct_b4.nsys-rep
+[1/1] [==21%                       ] meta-llama_Llama-3.2-1B-Instruct_b4.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.2-1B-Instruct_b4.nsys-rep
+[1/1] [=15%                        ] meta-llama_Llama-3.2-1B-Instruct_b4.nsys-rep
+[1/1] [=16%                        ] meta-llama_Llama-3.2-1B-Instruct_b4.nsys-rep
+[1/1] [=====31%                    ] meta-llama_Llama-3.2-1B-Instruct_b4.nsys-rep
+[1/1] [=========46%                ] meta-llama_Llama-3.2-1B-Instruct_b4.nsys-rep
+[1/1] [==============61%           ] meta-llama_Llama-3.2-1B-Instruct_b4.nsys-rep
+[1/1] [==================76%       ] meta-llama_Llama-3.2-1B-Instruct_b4.nsys-rep
+[1/1] [====================83%     ] meta-llama_Llama-3.2-1B-Instruct_b4.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-1B-Instruct_b4.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-1B-Instruct_b4.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/meta-llama_Llama-3.2-1B-Instruct_b4.nsys-rep
+2025-11-07 08:11:45,481 - ERROR - Execution failed for model meta-llama/Llama-3.2-1B-Instruct (exit code 143)
+2025-11-07 08:11:45,481 - INFO - Launching model: meta-llama/Llama-3.2-1B-Instruct (batch=8)
+2025-11-07 08:12:00,086 - INFO - stdout for meta-llama/Llama-3.2-1B-Instruct:
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-10d5.qdstrm'
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-1B-Instruct_b8.nsys-repProcessing events...
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-1B-Instruct_b8.nsys-rep
+[1/1] [==18%                       ] meta-llama_Llama-3.2-1B-Instruct_b8.nsys-rep
+[1/1] [==========49%               ] meta-llama_Llama-3.2-1B-Instruct_b8.nsys-rep
+[1/1] [===================80%      ] meta-llama_Llama-3.2-1B-Instruct_b8.nsys-rep
+[1/1] [===================81%      ] meta-llama_Llama-3.2-1B-Instruct_b8.nsys-rep
+[1/1] [========42%                 ] meta-llama_Llama-3.2-1B-Instruct_b8.nsys-rep
+[1/1] [====28%                     ] meta-llama_Llama-3.2-1B-Instruct_b8.nsys-rep
+[1/1] [==21%                       ] meta-llama_Llama-3.2-1B-Instruct_b8.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.2-1B-Instruct_b8.nsys-rep
+[1/1] [=15%                        ] meta-llama_Llama-3.2-1B-Instruct_b8.nsys-rep
+[1/1] [=16%                        ] meta-llama_Llama-3.2-1B-Instruct_b8.nsys-rep
+[1/1] [=====31%                    ] meta-llama_Llama-3.2-1B-Instruct_b8.nsys-rep
+[1/1] [=========46%                ] meta-llama_Llama-3.2-1B-Instruct_b8.nsys-rep
+[1/1] [==============61%           ] meta-llama_Llama-3.2-1B-Instruct_b8.nsys-rep
+[1/1] [==================76%       ] meta-llama_Llama-3.2-1B-Instruct_b8.nsys-rep
+[1/1] [====================83%     ] meta-llama_Llama-3.2-1B-Instruct_b8.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-1B-Instruct_b8.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-1B-Instruct_b8.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/meta-llama_Llama-3.2-1B-Instruct_b8.nsys-rep
+2025-11-07 08:12:00,086 - ERROR - Execution failed for model meta-llama/Llama-3.2-1B-Instruct (exit code 143)
+2025-11-07 08:12:00,086 - INFO - Launching model: meta-llama/Llama-3.2-1B-Instruct (batch=16)
+2025-11-07 08:12:15,505 - INFO - stdout for meta-llama/Llama-3.2-1B-Instruct:
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-880f.qdstrm'
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-1B-Instruct_b16.nsys-repProcessing events...
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-1B-Instruct_b16.nsys-rep
+[1/1] [==21%                       ] meta-llama_Llama-3.2-1B-Instruct_b16.nsys-rep
+[1/1] [==========49%               ] meta-llama_Llama-3.2-1B-Instruct_b16.nsys-rep
+[1/1] [==================76%       ] meta-llama_Llama-3.2-1B-Instruct_b16.nsys-rep
+[1/1] [==================77%       ] meta-llama_Llama-3.2-1B-Instruct_b16.nsys-rep
+[1/1] [==================78%       ] meta-llama_Llama-3.2-1B-Instruct_b16.nsys-rep
+[1/1] [====28%                     ] meta-llama_Llama-3.2-1B-Instruct_b16.nsys-rep
+[1/1] [==21%                       ] meta-llama_Llama-3.2-1B-Instruct_b16.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.2-1B-Instruct_b16.nsys-rep
+[1/1] [=16%                        ] meta-llama_Llama-3.2-1B-Instruct_b16.nsys-rep
+[1/1] [=====31%                    ] meta-llama_Llama-3.2-1B-Instruct_b16.nsys-rep
+[1/1] [==========47%               ] meta-llama_Llama-3.2-1B-Instruct_b16.nsys-rep
+[1/1] [==============62%           ] meta-llama_Llama-3.2-1B-Instruct_b16.nsys-rep
+[1/1] [==================77%       ] meta-llama_Llama-3.2-1B-Instruct_b16.nsys-rep
+[1/1] [====================83%     ] meta-llama_Llama-3.2-1B-Instruct_b16.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-1B-Instruct_b16.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-1B-Instruct_b16.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/meta-llama_Llama-3.2-1B-Instruct_b16.nsys-rep
+2025-11-07 08:12:15,505 - ERROR - Execution failed for model meta-llama/Llama-3.2-1B-Instruct (exit code 143)
+2025-11-07 08:12:15,505 - INFO - Launching model: meta-llama/Llama-3.2-1B-Instruct (batch=32)
+2025-11-07 08:12:33,039 - INFO - stdout for meta-llama/Llama-3.2-1B-Instruct:
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-85ba.qdstrm'
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-1B-Instruct_b32.nsys-repProcessing events...
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-1B-Instruct_b32.nsys-rep
+[1/1] [==19%                       ] meta-llama_Llama-3.2-1B-Instruct_b32.nsys-rep
+[1/1] [==========49%               ] meta-llama_Llama-3.2-1B-Instruct_b32.nsys-rep
+[1/1] [===================79%      ] meta-llama_Llama-3.2-1B-Instruct_b32.nsys-rep
+[1/1] [===================80%      ] meta-llama_Llama-3.2-1B-Instruct_b32.nsys-rep
+[1/1] [====28%                     ] meta-llama_Llama-3.2-1B-Instruct_b32.nsys-rep
+[1/1] [==21%                       ] meta-llama_Llama-3.2-1B-Instruct_b32.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.2-1B-Instruct_b32.nsys-rep
+[1/1] [=15%                        ] meta-llama_Llama-3.2-1B-Instruct_b32.nsys-rep
+[1/1] [=====30%                    ] meta-llama_Llama-3.2-1B-Instruct_b32.nsys-rep
+[1/1] [=========45%                ] meta-llama_Llama-3.2-1B-Instruct_b32.nsys-rep
+[1/1] [=============60%            ] meta-llama_Llama-3.2-1B-Instruct_b32.nsys-rep
+[1/1] [==================75%       ] meta-llama_Llama-3.2-1B-Instruct_b32.nsys-rep
+[1/1] [====================83%     ] meta-llama_Llama-3.2-1B-Instruct_b32.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-1B-Instruct_b32.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-1B-Instruct_b32.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/meta-llama_Llama-3.2-1B-Instruct_b32.nsys-rep
+2025-11-07 08:12:33,039 - ERROR - Execution failed for model meta-llama/Llama-3.2-1B-Instruct (exit code 143)
+2025-11-07 08:12:33,039 - INFO - Launching model: meta-llama/Llama-3.2-3B-Instruct (batch=1)
+2025-11-07 08:12:49,208 - INFO - stdout for meta-llama/Llama-3.2-3B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-2722.qdstrm'
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-repProcessing events...
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [==19%                       ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [==========49%               ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [===================79%      ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [===================80%      ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [====28%                     ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [==21%                       ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [14%                         ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [12%                         ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [10%                         ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [9%                          ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [8%                          ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [=16%                        ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [===24%                      ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [=====32%                    ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [========40%                 ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [==========48%               ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [============56%             ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [==============64%           ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [================71%         ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [===================79%      ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [====================83%     ] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/meta-llama_Llama-3.2-3B-Instruct_b1.nsys-rep
+2025-11-07 08:12:49,208 - ERROR - stderr for meta-llama/Llama-3.2-3B-Instruct:
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.64s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.04it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.06s/it]
+2025-11-07 08:12:49,209 - ERROR - Execution failed for model meta-llama/Llama-3.2-3B-Instruct (exit code 143)
+2025-11-07 08:12:49,209 - INFO - Launching model: meta-llama/Llama-3.2-3B-Instruct (batch=2)
+2025-11-07 08:13:05,583 - INFO - stdout for meta-llama/Llama-3.2-3B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-12f1.qdstrm'
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-repProcessing events...
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [==18%                       ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [==========49%               ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [===================79%      ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [===================80%      ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [====28%                     ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [==21%                       ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [14%                         ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [12%                         ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [10%                         ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [9%                          ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [8%                          ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [====25%                     ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [======34%                   ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [========42%                 ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [===========50%              ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [=============59%            ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [===============67%          ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [==================75%       ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [====================83%     ] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/meta-llama_Llama-3.2-3B-Instruct_b2.nsys-rep
+2025-11-07 08:13:05,583 - ERROR - stderr for meta-llama/Llama-3.2-3B-Instruct:
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.63s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.05it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.05s/it]
+2025-11-07 08:13:05,583 - ERROR - Execution failed for model meta-llama/Llama-3.2-3B-Instruct (exit code 143)
+2025-11-07 08:13:05,583 - INFO - Launching model: meta-llama/Llama-3.2-3B-Instruct (batch=4)
+2025-11-07 08:13:22,456 - INFO - stdout for meta-llama/Llama-3.2-3B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-a374.qdstrm'
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-repProcessing events...
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [==19%                       ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [==========49%               ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [===================79%      ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [===================80%      ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [====28%                     ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [==21%                       ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [14%                         ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [12%                         ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [10%                         ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [9%                          ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [8%                          ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [9%                          ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [====26%                     ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [======34%                   ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [=========43%                ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [===========51%              ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [=============60%            ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [================68%         ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [==================77%       ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [====================83%     ] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/meta-llama_Llama-3.2-3B-Instruct_b4.nsys-rep
+2025-11-07 08:13:22,456 - ERROR - stderr for meta-llama/Llama-3.2-3B-Instruct:
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.66s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.02it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.08s/it]
+2025-11-07 08:13:22,456 - ERROR - Execution failed for model meta-llama/Llama-3.2-3B-Instruct (exit code 143)
+2025-11-07 08:13:22,456 - INFO - Launching model: meta-llama/Llama-3.2-3B-Instruct (batch=8)
+2025-11-07 08:13:40,651 - INFO - stdout for meta-llama/Llama-3.2-3B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-0579.qdstrm'
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-repProcessing events...
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [==20%                       ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [==========49%               ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [==================78%       ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [===================79%      ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [==21%                       ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [14%                         ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [12%                         ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [10%                         ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [9%                          ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [8%                          ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [9%                          ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [====26%                     ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [======34%                   ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [=========43%                ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [===========51%              ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [=============60%            ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [================68%         ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [==================77%       ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [====================83%     ] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/meta-llama_Llama-3.2-3B-Instruct_b8.nsys-rep
+2025-11-07 08:13:40,651 - ERROR - stderr for meta-llama/Llama-3.2-3B-Instruct:
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.61s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.05it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.05s/it]
+2025-11-07 08:13:40,651 - ERROR - Execution failed for model meta-llama/Llama-3.2-3B-Instruct (exit code 143)
+2025-11-07 08:13:40,651 - INFO - Launching model: meta-llama/Llama-3.2-3B-Instruct (batch=16)
+2025-11-07 08:14:01,192 - INFO - stdout for meta-llama/Llama-3.2-3B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-2690.qdstrm'
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-repProcessing events...
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [==19%                       ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [==========48%               ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [==================76%       ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [==================78%       ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [===================79%      ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [===================80%      ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [====28%                     ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [==21%                       ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [14%                         ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [12%                         ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [10%                         ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [9%                          ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [====26%                     ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [======35%                   ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [=========43%                ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [===========52%              ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [==============61%           ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [================69%         ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [==================78%       ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [====================83%     ] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/meta-llama_Llama-3.2-3B-Instruct_b16.nsys-rep
+2025-11-07 08:14:01,192 - ERROR - stderr for meta-llama/Llama-3.2-3B-Instruct:
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.65s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.04it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.07s/it]
+2025-11-07 08:14:01,193 - ERROR - Execution failed for model meta-llama/Llama-3.2-3B-Instruct (exit code 143)
+2025-11-07 08:14:01,193 - INFO - Launching model: meta-llama/Llama-3.2-3B-Instruct (batch=32)
+2025-11-07 08:14:26,871 - INFO - stdout for meta-llama/Llama-3.2-3B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-8571.qdstrm'
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-repProcessing events...
+
+[1/1] [0%                          ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [===22%                      ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [==========48%               ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [=================74%        ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [==================75%       ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [==================76%       ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [5%                          ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [====28%                     ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [==21%                       ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [14%                         ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [12%                         ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [11%                         ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [9%                          ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [==18%                       ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [====26%                     ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [======35%                   ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [=========44%                ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [===========52%              ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [==============61%           ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [================70%         ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [==================78%       ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [====================83%     ] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/meta-llama_Llama-3.2-3B-Instruct_b32.nsys-rep
+2025-11-07 08:14:26,871 - ERROR - stderr for meta-llama/Llama-3.2-3B-Instruct:
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.62s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.05it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.05s/it]
+2025-11-07 08:14:26,871 - ERROR - Execution failed for model meta-llama/Llama-3.2-3B-Instruct (exit code 143)
+2025-11-07 08:14:26,871 - INFO - Launching model: meta-llama/Llama-3.1-8B-Instruct (batch=1)
+2025-11-07 08:14:47,219 - INFO - stdout for meta-llama/Llama-3.1-8B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-3905.qdstrm'
+
+[1/1] [0%                          ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-repProcessing events...
+
+[1/1] [0%                          ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [==19%                       ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [==========49%               ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [===================79%      ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [===================80%      ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [====28%                     ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [==21%                       ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [14%                         ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [12%                         ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [10%                         ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [9%                          ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [8%                          ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [7%                          ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [14%                         ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [==21%                       ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [====28%                     ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [======35%                   ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [========42%                 ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [==========49%               ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [============56%             ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [==============63%           ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [================70%         ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [==================77%       ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [====================83%     ] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/meta-llama_Llama-3.1-8B-Instruct_b1.nsys-rep
+2025-11-07 08:14:47,220 - ERROR - stderr for meta-llama/Llama-3.1-8B-Instruct:
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.72s/it]
+Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.78s/it]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:05<00:01,  1.77s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.22s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.42s/it]
+2025-11-07 08:14:47,220 - ERROR - Execution failed for model meta-llama/Llama-3.1-8B-Instruct (exit code 143)
+2025-11-07 08:14:47,220 - INFO - Launching model: meta-llama/Llama-3.1-8B-Instruct (batch=2)
+2025-11-07 08:15:07,718 - INFO - stdout for meta-llama/Llama-3.1-8B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-b926.qdstrm'
+
+[1/1] [0%                          ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-repProcessing events...
+
+[1/1] [0%                          ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [==19%                       ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [==========49%               ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [===================79%      ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [====28%                     ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [==21%                       ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [14%                         ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [12%                         ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [10%                         ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [9%                          ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [8%                          ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [7%                          ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [=15%                        ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [===23%                      ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [=====30%                    ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [=======38%                  ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [=========45%                ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [===========53%              ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [=============60%            ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [================68%         ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [==================75%       ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [====================83%     ] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/meta-llama_Llama-3.1-8B-Instruct_b2.nsys-rep
+2025-11-07 08:15:07,718 - ERROR - stderr for meta-llama/Llama-3.1-8B-Instruct:
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.68s/it]
+Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.74s/it]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:05<00:01,  1.74s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.20s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.39s/it]
+2025-11-07 08:15:07,718 - ERROR - Execution failed for model meta-llama/Llama-3.1-8B-Instruct (exit code 143)
+2025-11-07 08:15:07,718 - INFO - Launching model: meta-llama/Llama-3.1-8B-Instruct (batch=4)
+2025-11-07 08:15:30,015 - INFO - stdout for meta-llama/Llama-3.1-8B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-180f.qdstrm'
+
+[1/1] [0%                          ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-repProcessing events...
+
+[1/1] [0%                          ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [==20%                       ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [==========48%               ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [==================77%       ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [==================78%       ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [===================79%      ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [====28%                     ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [==21%                       ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [14%                         ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [12%                         ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [10%                         ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [9%                          ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [8%                          ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [7%                          ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [=15%                        ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [===22%                      ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [=====30%                    ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [=======37%                  ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [=========45%                ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [===========52%              ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [=============60%            ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [===============67%          ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [==================75%       ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [===================82%      ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [====================83%     ] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/meta-llama_Llama-3.1-8B-Instruct_b4.nsys-rep
+2025-11-07 08:15:30,015 - ERROR - stderr for meta-llama/Llama-3.1-8B-Instruct:
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.73s/it]
+Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.74s/it]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:05<00:01,  1.72s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.19s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.39s/it]
+2025-11-07 08:15:30,015 - ERROR - Execution failed for model meta-llama/Llama-3.1-8B-Instruct (exit code 143)
+2025-11-07 08:15:30,015 - INFO - Launching model: meta-llama/Llama-3.1-8B-Instruct (batch=8)
+2025-11-07 08:15:55,102 - INFO - stdout for meta-llama/Llama-3.1-8B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-7faa.qdstrm'
+
+[1/1] [0%                          ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-repProcessing events...
+
+[1/1] [0%                          ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [==20%                       ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [==========48%               ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [==================76%       ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [==================77%       ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [==================78%       ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [====28%                     ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [==21%                       ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [14%                         ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [12%                         ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [10%                         ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [9%                          ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [8%                          ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [7%                          ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [=15%                        ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [===22%                      ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [=====30%                    ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [=======37%                  ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [=========45%                ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [===========52%              ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [=============60%            ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [===============67%          ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [==================75%       ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [===================82%      ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [====================83%     ] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/meta-llama_Llama-3.1-8B-Instruct_b8.nsys-rep
+2025-11-07 08:15:55,102 - ERROR - stderr for meta-llama/Llama-3.1-8B-Instruct:
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.73s/it]
+Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.76s/it]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:05<00:01,  1.75s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.22s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.41s/it]
+2025-11-07 08:15:55,103 - ERROR - Execution failed for model meta-llama/Llama-3.1-8B-Instruct (exit code 143)
+2025-11-07 08:15:55,103 - INFO - Launching model: meta-llama/Llama-3.1-8B-Instruct (batch=16)
+2025-11-07 08:16:25,574 - INFO - stdout for meta-llama/Llama-3.1-8B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-fa21.qdstrm'
+
+[1/1] [0%                          ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-repProcessing events...
+
+[1/1] [0%                          ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [===22%                      ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [==========48%               ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [=================74%        ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [==================75%       ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [==================76%       ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [==================77%       ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [5%                          ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [====28%                     ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [==21%                       ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [14%                         ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [12%                         ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [10%                         ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [9%                          ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [8%                          ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [7%                          ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [8%                          ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [=15%                        ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [===23%                      ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [=====30%                    ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [=======38%                  ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [=========46%                ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [===========53%              ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [==============61%           ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [================69%         ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [==================76%       ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [====================83%     ] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/meta-llama_Llama-3.1-8B-Instruct_b16.nsys-rep
+2025-11-07 08:16:25,574 - ERROR - stderr for meta-llama/Llama-3.1-8B-Instruct:
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.73s/it]
+Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.75s/it]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:05<00:01,  1.74s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.20s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.40s/it]
+2025-11-07 08:16:25,575 - ERROR - Execution failed for model meta-llama/Llama-3.1-8B-Instruct (exit code 143)
+2025-11-07 08:16:25,575 - INFO - Launching model: meta-llama/Llama-3.1-8B-Instruct (batch=32)
+2025-11-07 08:17:04,783 - INFO - stdout for meta-llama/Llama-3.1-8B-Instruct:
+model loading...
+Capture range started in the application.
+Capture range ended in the application.
+Generating '/tmp/nsys-report-d473.qdstrm'
+
+[1/1] [0%                          ] meta-llama_Llama-3.1-8B-Instruct_b32.nsys-repProcessing events...
+
+[1/1] [0%                          ] meta-llama_Llama-3.1-8B-Instruct_b32.nsys-rep
+[1/1] [8%                          ] meta-llama_Llama-3.1-8B-Instruct_b32.nsys-rep
+[1/1] [=17%                        ] meta-llama_Llama-3.1-8B-Instruct_b32.nsys-rep
+[1/1] [==21%                       ] meta-llama_Llama-3.1-8B-Instruct_b32.nsys-rep
+[1/1] [====25%                     ] meta-llama_Llama-3.1-8B-Instruct_b32.nsys-rep
+[1/1] [====26%                     ] meta-llama_Llama-3.1-8B-Instruct_b32.nsys-rep
+[1/1] [=====================87%    ] meta-llama_Llama-3.1-8B-Instruct_b32.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.1-8B-Instruct_b32.nsys-rep
+[1/1] [========================100%] meta-llama_Llama-3.1-8B-Instruct_b32.nsys-rep
+Generated:
+	/workspace/TailBench/./profile/meta-llama_Llama-3.1-8B-Instruct_b32.nsys-rep
+2025-11-07 08:17:04,784 - ERROR - stderr for meta-llama/Llama-3.1-8B-Instruct:
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.71s/it]
+Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.71s/it]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:05<00:01,  1.71s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.18s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.37s/it]
 Traceback (most recent call last):
-  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
-    subprocess.run(cmd, check=True)
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'google-bert/bert-base-uncased', '--batch', '1']' returned non-zero exit status 1.
-2025-11-06 04:38:09,811 - INFO - Launching model: Qwen/Qwen2.5-7B-Instruct (batch=1)
-2025-11-06 04:38:09,891 - ERROR - Execution failed for model Qwen/Qwen2.5-7B-Instruct
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
-    subprocess.run(cmd, check=True)
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'Qwen/Qwen2.5-7B-Instruct', '--batch', '1']' returned non-zero exit status 1.
-2025-11-06 04:38:09,891 - INFO - Launching model: Qwen/Qwen2.5-3B-Instruct (batch=1)
-2025-11-06 04:38:09,970 - ERROR - Execution failed for model Qwen/Qwen2.5-3B-Instruct
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
-    subprocess.run(cmd, check=True)
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'Qwen/Qwen2.5-3B-Instruct', '--batch', '1']' returned non-zero exit status 1.
-2025-11-06 04:38:09,970 - INFO - Launching model: openai/whisper-large-v3-turbo (batch=1)
-2025-11-06 04:38:10,051 - ERROR - Execution failed for model openai/whisper-large-v3-turbo
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
-    subprocess.run(cmd, check=True)
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'openai/whisper-large-v3-turbo', '--batch', '1']' returned non-zero exit status 1.
-2025-11-06 04:38:10,051 - INFO - Launching model: meta-llama/Llama-3.2-1B-Instruct (batch=1)
-2025-11-06 04:38:10,131 - ERROR - Execution failed for model meta-llama/Llama-3.2-1B-Instruct
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
-    subprocess.run(cmd, check=True)
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'meta-llama/Llama-3.2-1B-Instruct', '--batch', '1']' returned non-zero exit status 1.
-2025-11-06 04:38:10,132 - INFO - Launching model: meta-llama/Llama-3.2-3B-Instruct (batch=1)
-2025-11-06 04:38:10,212 - ERROR - Execution failed for model meta-llama/Llama-3.2-3B-Instruct
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
-    subprocess.run(cmd, check=True)
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'meta-llama/Llama-3.2-3B-Instruct', '--batch', '1']' returned non-zero exit status 1.
-2025-11-06 04:38:10,212 - INFO - Launching model: meta-llama/Llama-3.1-8B-Instruct (batch=1)
-2025-11-06 04:38:10,282 - ERROR - Execution failed for model meta-llama/Llama-3.1-8B-Instruct
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
-    subprocess.run(cmd, check=True)
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'meta-llama/Llama-3.1-8B-Instruct', '--batch', '1']' returned non-zero exit status 1.
-2025-11-06 04:38:10,282 - INFO - Launching model: openai/clip-vit-base-patch32 (batch=1)
-2025-11-06 04:38:10,362 - ERROR - Execution failed for model openai/clip-vit-base-patch32
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
-    subprocess.run(cmd, check=True)
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'openai/clip-vit-base-patch32', '--batch', '1']' returned non-zero exit status 1.
-2025-11-06 04:38:10,362 - INFO - Launching model: openai/clip-vit-base-patch16 (batch=1)
-2025-11-06 04:38:10,440 - ERROR - Execution failed for model openai/clip-vit-base-patch16
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
-    subprocess.run(cmd, check=True)
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'openai/clip-vit-base-patch16', '--batch', '1']' returned non-zero exit status 1.
-2025-11-06 04:38:10,441 - INFO - Launching model: stabilityai/stable-diffusion-xl-base-1.0 (batch=1)
-2025-11-06 04:38:10,521 - ERROR - Execution failed for model stabilityai/stable-diffusion-xl-base-1.0
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
-    subprocess.run(cmd, check=True)
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'stabilityai/stable-diffusion-xl-base-1.0', '--batch', '1']' returned non-zero exit status 1.
-2025-11-06 04:38:10,522 - INFO - Launching model: Salesforce/blip-image-captioning-base (batch=1)
-2025-11-06 04:38:10,602 - ERROR - Execution failed for model Salesforce/blip-image-captioning-base
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/run_models.py", line 43, in run_model
-    subprocess.run(cmd, check=True)
-  File "/usr/lib/python3.12/subprocess.py", line 571, in run
-    raise CalledProcessError(retcode, process.args,
-subprocess.CalledProcessError: Command '['/usr/bin/python3', 'model_launch.py', '--model_name', 'Salesforce/blip-image-captioning-base', '--batch', '1']' returned non-zero exit status 1.
-2025-11-06 04:38:10,602 - INFO - Completed sequential model launch.
-2025-11-06 04:39:09,726 - INFO - Starting sequential model launch.
-2025-11-06 04:39:09,726 - INFO - Launching model: mistralai/Mistral-7B-Instruct-v0.3 (batch=1)
-2025-11-06 04:39:09,806 - ERROR - stderr for mistralai/Mistral-7B-Instruct-v0.3:
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
-    import torch
-ModuleNotFoundError: No module named 'torch'
-2025-11-06 04:39:09,806 - ERROR - Execution failed for model mistralai/Mistral-7B-Instruct-v0.3 (exit code 1)
-2025-11-06 04:39:09,806 - INFO - Launching model: google-bert/bert-base-uncased (batch=1)
-2025-11-06 04:39:09,886 - ERROR - stderr for google-bert/bert-base-uncased:
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
-    import torch
-ModuleNotFoundError: No module named 'torch'
-2025-11-06 04:39:09,886 - ERROR - Execution failed for model google-bert/bert-base-uncased (exit code 1)
-2025-11-06 04:39:09,886 - INFO - Launching model: Qwen/Qwen2.5-7B-Instruct (batch=1)
-2025-11-06 04:39:09,966 - ERROR - stderr for Qwen/Qwen2.5-7B-Instruct:
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
-    import torch
-ModuleNotFoundError: No module named 'torch'
-2025-11-06 04:39:09,966 - ERROR - Execution failed for model Qwen/Qwen2.5-7B-Instruct (exit code 1)
-2025-11-06 04:39:09,966 - INFO - Launching model: Qwen/Qwen2.5-3B-Instruct (batch=1)
-2025-11-06 04:39:10,046 - ERROR - stderr for Qwen/Qwen2.5-3B-Instruct:
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
-    import torch
-ModuleNotFoundError: No module named 'torch'
-2025-11-06 04:39:10,047 - ERROR - Execution failed for model Qwen/Qwen2.5-3B-Instruct (exit code 1)
-2025-11-06 04:39:10,047 - INFO - Launching model: openai/whisper-large-v3-turbo (batch=1)
-2025-11-06 04:39:10,125 - ERROR - stderr for openai/whisper-large-v3-turbo:
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
-    import torch
-ModuleNotFoundError: No module named 'torch'
-2025-11-06 04:39:10,125 - ERROR - Execution failed for model openai/whisper-large-v3-turbo (exit code 1)
-2025-11-06 04:39:10,125 - INFO - Launching model: meta-llama/Llama-3.2-1B-Instruct (batch=1)
-2025-11-06 04:39:10,206 - ERROR - stderr for meta-llama/Llama-3.2-1B-Instruct:
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
-    import torch
-ModuleNotFoundError: No module named 'torch'
-2025-11-06 04:39:10,206 - ERROR - Execution failed for model meta-llama/Llama-3.2-1B-Instruct (exit code 1)
-2025-11-06 04:39:10,206 - INFO - Launching model: meta-llama/Llama-3.2-3B-Instruct (batch=1)
-2025-11-06 04:39:10,286 - ERROR - stderr for meta-llama/Llama-3.2-3B-Instruct:
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
-    import torch
-ModuleNotFoundError: No module named 'torch'
-2025-11-06 04:39:10,286 - ERROR - Execution failed for model meta-llama/Llama-3.2-3B-Instruct (exit code 1)
-2025-11-06 04:39:10,286 - INFO - Launching model: meta-llama/Llama-3.1-8B-Instruct (batch=1)
-2025-11-06 04:39:10,366 - ERROR - stderr for meta-llama/Llama-3.1-8B-Instruct:
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
-    import torch
-ModuleNotFoundError: No module named 'torch'
-2025-11-06 04:39:10,366 - ERROR - Execution failed for model meta-llama/Llama-3.1-8B-Instruct (exit code 1)
-2025-11-06 04:39:10,366 - INFO - Launching model: openai/clip-vit-base-patch32 (batch=1)
-2025-11-06 04:39:10,446 - ERROR - stderr for openai/clip-vit-base-patch32:
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
-    import torch
-ModuleNotFoundError: No module named 'torch'
-2025-11-06 04:39:10,446 - ERROR - Execution failed for model openai/clip-vit-base-patch32 (exit code 1)
-2025-11-06 04:39:10,446 - INFO - Launching model: openai/clip-vit-base-patch16 (batch=1)
-2025-11-06 04:39:10,526 - ERROR - stderr for openai/clip-vit-base-patch16:
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
-    import torch
-ModuleNotFoundError: No module named 'torch'
-2025-11-06 04:39:10,527 - ERROR - Execution failed for model openai/clip-vit-base-patch16 (exit code 1)
-2025-11-06 04:39:10,527 - INFO - Launching model: stabilityai/stable-diffusion-xl-base-1.0 (batch=1)
-2025-11-06 04:39:10,607 - ERROR - stderr for stabilityai/stable-diffusion-xl-base-1.0:
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
-    import torch
-ModuleNotFoundError: No module named 'torch'
-2025-11-06 04:39:10,607 - ERROR - Execution failed for model stabilityai/stable-diffusion-xl-base-1.0 (exit code 1)
-2025-11-06 04:39:10,607 - INFO - Launching model: Salesforce/blip-image-captioning-base (batch=1)
-2025-11-06 04:39:10,687 - ERROR - stderr for Salesforce/blip-image-captioning-base:
-Traceback (most recent call last):
-  File "/home/jelite/TailBench/model_launch.py", line 1, in <module>
-    import torch
-ModuleNotFoundError: No module named 'torch'
-2025-11-06 04:39:10,688 - ERROR - Execution failed for model Salesforce/blip-image-captioning-base (exit code 1)
-2025-11-06 04:39:10,688 - INFO - Completed sequential model launch.
+  File "/workspace/TailBench/model_launch.py", line 72, in <module>
+    main()
+  File "/workspace/TailBench/model_launch.py", line 46, in main
+    prefill_out = model(**inputs, use_cache=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/accelerate/hooks.py", line 176, in new_forward
+    return module._hf_hook.post_forward(module, output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/accelerate/hooks.py", line 400, in post_forward
+    output = send_to_device(output, self.input_device, skip_keys=self.skip_keys)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/accelerate/utils/operations.py", line 180, in send_to_device
+    k: t if k in skip_keys else send_to_device(t, device, non_blocking=non_blocking, skip_keys=skip_keys)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/accelerate/utils/operations.py", line 154, in send_to_device
+    return tensor.to(device, non_blocking=non_blocking)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 7.65 GiB. GPU 0 has a total capacity of 23.60 GiB of which 3.23 GiB is free. Process 2483929 has 20.36 GiB memory in use. Of the allocated memory 17.74 GiB is allocated by PyTorch, and 2.32 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-11-07 08:17:04,784 - ERROR - Execution failed for model meta-llama/Llama-3.1-8B-Instruct (exit code 1)
+2025-11-07 08:17:04,784 - INFO - Completed sequential model launch.
