@@ -2,6 +2,8 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import argparse
 from huggingface_hub import login
+import torch_tensorrt
+
 
 
 def main():
@@ -25,14 +27,30 @@ def main():
         cache_dir=CACHE_DIR,
         attn_implementation="flash_attention_2"
     )
+    
+    model.eval()
+
+
     prompt = "a "*998
     prompts = [prompt for i in range(args.batch)]
     inputs = tokenizer(prompts, return_tensors="pt", padding=True).to(model.device)
-    
+
+    save_path = f"./trt_models/{MODEL_NAME}_{args.batch}.ts"
+
+    example_inputs = (inputs["input_ids"],)
+    trt_model = torch_tensorrt.compile(
+        model,
+        inputs=[torch_tensorrt.Input(example_inputs[0].shape, dtype=torch.half)],
+        enabled_precisions={torch.half},  # FP16
+        device='cuda:0',
+    )
+    torch.jit.save(trt_model, save_path)
+    print(f"TensorRT 모델 저장 완료: {save_path}")
+
     # ---------------- warmup Start ----------------
     with torch.no_grad():
         for _ in range(3):
-            _ = model(**inputs, use_cache=True)
+            _ = trt_model(**inputs, use_cache=True)
     torch.cuda.synchronize()
 
 
@@ -42,7 +60,7 @@ def main():
     # ---- Prefill 단계 ----
     torch.cuda.nvtx.range_push("prefill")
     with torch.no_grad():
-        prefill_out = model(**inputs, use_cache=True)
+        prefill_out = trt_model(**inputs, use_cache=True)
     torch.cuda.nvtx.range_pop()
 
     # ---- Decoding 단계 ----
@@ -54,7 +72,7 @@ def main():
     generated = input_ids
     for _ in range(32):
         with torch.no_grad():
-            out = model(input_ids=generated[:, -1:], past_key_values=past_key_values, use_cache=True)
+            out = trt_model(input_ids=generated[:, -1:], past_key_values=past_key_values, use_cache=True)
         next_token = torch.argmax(out.logits[:, -1, :], dim=-1, keepdim=True)
         generated = torch.cat([generated, next_token], dim=-1)
         past_key_values = out.past_key_values

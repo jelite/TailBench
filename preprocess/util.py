@@ -125,3 +125,59 @@ def extract_tail_effect_info(raw_file_path: str, output_file_path: str):
     # CSV 저장
     output.to_csv(output_file_path, index=False)
     print(f"✅ Saved: {output_file_path}")
+
+def xxx_extract_tail_effect_info(raw_file_path: str, output_file_path: str):
+    df = pd.read_csv(raw_file_path)
+
+    df = df.dropna(subset=["BlkX", "BlkY", "BlkZ", "Reg/Trd", "StcSMem (MB)", "DymSMem (MB)"])
+
+    cuda.init()
+
+    device = cuda.Device(0)
+    attrs = device.get_attributes()
+
+    MAX_WARPS_PER_SM = attrs[cuda.device_attribute.MAX_THREADS_PER_MULTIPROCESSOR] // 32
+    MAX_THREADS_PER_SM = attrs[cuda.device_attribute.MAX_THREADS_PER_MULTIPROCESSOR]
+    MAX_BLOCKS_PER_SM = attrs[cuda.device_attribute.MAX_BLOCKS_PER_MULTIPROCESSOR]
+    MAX_REGS_PER_SM = attrs[cuda.device_attribute.MAX_REGISTERS_PER_MULTIPROCESSOR]
+    MAX_SMEM_PER_SM = attrs[cuda.device_attribute.MAX_SHARED_MEMORY_PER_MULTIPROCESSOR]
+
+    df["threads_per_block"] = df["BlkX"] * df["BlkY"] * df["BlkZ"]
+    df["regs_per_block"] = df["threads_per_block"] * df["Reg/Trd"]
+    df["shared_mem_per_block"] = (df["StcSMem (MB)"] + df["DymSMem (MB)"]) * 1e6
+
+    df["blocks_by_regs"] = np.floor(MAX_REGS_PER_SM / df["regs_per_block"].replace(0, np.nan))
+    df["blocks_by_smem"] = np.floor(MAX_SMEM_PER_SM / df["shared_mem_per_block"].replace(0, np.nan))
+    df["blocks_by_threads"] = np.floor(MAX_THREADS_PER_SM / df["threads_per_block"].replace(0, np.nan))
+
+    df["active_blocks_per_sm"] = df[["blocks_by_regs", "blocks_by_smem", "blocks_by_threads"]].min(axis=1)
+    df["active_blocks_per_sm"] = df["active_blocks_per_sm"].clip(upper=MAX_BLOCKS_PER_SM).fillna(0)
+
+    df["warps_per_block"] = np.ceil(df["threads_per_block"] / 32)
+    df["active_warps_per_sm"] = df["active_blocks_per_sm"] * df["warps_per_block"]
+    df["num_blocks"] = df["GrdX"] * df["GrdY"] * df["GrdZ"]
+    df["wave"] = df["num_blocks"] / (df["active_blocks_per_sm"] * attrs[cuda.device_attribute.MULTIPROCESSOR_COUNT])
+
+
+    df["Duration (ms)"] = df["Duration (ns)"] / 1e6
+
+    # 남는 SM을 기준으로 계산 (실험적)
+    
+    df["tail_ratio_%"] = (df["wave"] - np.floor(df["wave"]) ) / np.ceil(df["wave"]) * 100
+    df["tail_time_ms"] = df["Duration (ms)"] * df["tail_ratio_%"] / 100
+
+    output = df[[
+        "Name",
+        "Duration (ms)",
+        "wave",
+        "tail_ratio_%",
+        "tail_time_ms",
+        "threads_per_block",
+        "Reg/Trd",
+        "StcSMem (MB)",
+        "DymSMem (MB)",
+        "phase"
+    ]]
+
+    output.to_csv(output_file_path, index=False)
+    print(f"✅ Saved: {output_file_path}")

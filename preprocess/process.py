@@ -1,13 +1,13 @@
 import pandas as pd
 import re, os
 
-data_file_dir = "../data/preprocess"
+data_file_dir = "../exp_with_flashattn/data/preprocess"
 
 def get_file_list(profile_dir_path: str):
     file_list = []
     # 파일 이름 패턴: <모델이름>_b<숫자>.nsys-rep
     # pattern = re.compile(r"^(.*)_b(\d+)\.nsys-rep$")
-    pattern = re.compile(r"^(.*)_b(\d+)_(.*)\.csv$")
+    pattern = re.compile(r"^xxx_(.*)_b(\d+)_(.*)\.csv$")
 
     for dirpath, _, filenames in os.walk(profile_dir_path):
         for filename in filenames:
@@ -45,7 +45,7 @@ for file_match in file_list:
         "tail_ratio_prefill(%)": tail_ratio_prefill,
         "tail_ratio_decoding(%)": tail_ratio_decoding
     })
-output_csv_path = f"../data/summary/tail_ratio_summary.csv"
+output_csv_path = f"../exp_with_flashattn/data/summary/xxx_tail_ratio_summary.csv"
 summary_df = pd.DataFrame(results)
 summary_df.to_csv(output_csv_path, index=False)
 print(f"✅ Tail ratio summary saved to: {output_csv_path}")
