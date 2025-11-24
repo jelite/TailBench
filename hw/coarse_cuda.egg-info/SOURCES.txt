@@ -1,0 +1,6 @@
+coarse_kernel.cu
+setup.py
+coarse_cuda.egg-info/PKG-INFO
+coarse_cuda.egg-info/SOURCES.txt
+coarse_cuda.egg-info/dependency_links.txt
+coarse_cuda.egg-info/top_level.txt

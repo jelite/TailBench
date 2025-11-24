@@ -109,7 +109,7 @@ def coarse_to_fine(hidden, top_cluster=20, final_k=10):
 # ======================================
 # 5) 평가
 # ======================================
-text = "h="
+text = "When I was young, I used to"
 inputs = tokenizer(text, return_tensors="pt").to("cuda")
 
 with torch.no_grad():
