@@ -2,3 +2,6 @@
 *.png
 *.sqlite
 *.csv
+*.bin
+/hw/model_cache/*
+*.pt

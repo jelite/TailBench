@@ -1,0 +1,4 @@
+num_centroids=100
+dim=2304
+vocab=256000
+assign_k=2

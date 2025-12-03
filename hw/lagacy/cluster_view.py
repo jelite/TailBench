@@ -6,25 +6,74 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 # ======================================
 # 0) PyTorch GPU KMeans (FP32)
 # ======================================
-def kmeans_torch_gpu(x_fp32, num_clusters, num_iters=40):
+import torch
+import math
+
+def kmeans_torch_gpu(x_fp32, num_clusters, num_iters=20, pref_k=8):
+    """
+    큰 N에서 Hungarian(NxN) 대신, '가까운 클러스터 선호 리스트 + capacity' 기반
+    균등 근사 Balanced K-Means.
+
+    - 각 포인트는 거리 기준 상위 pref_k개의 클러스터 선호 리스트를 갖고,
+      그 중 아직 capacity가 남은 클러스터에 할당.
+    - target_size = ceil(N / num_clusters) 를 넘지 않도록 제한.
+    """
     N, D = x_fp32.shape
-    indices = torch.randperm(N, device=x_fp32.device)[:num_clusters]
+    device = x_fp32.device
+
+    # 초기 센트로이드: 랜덤 샘플
+    indices = torch.randperm(N, device=device)[:num_clusters]
     centroids = x_fp32[indices].clone()
 
-    for _ in range(num_iters):
-        dist = torch.cdist(x_fp32, centroids)
-        labels = torch.argmin(dist, dim=1)
+    for it in range(num_iters):
+        # [N, C] 거리 (GPU)
+        dist = torch.cdist(x_fp32, centroids)  # float32, [N, C]
 
+        # 각 포인트별 선호 클러스터 리스트 (가까운 순)
+        pref_k_eff = min(pref_k, num_clusters)
+        pref = torch.topk(dist, k=pref_k_eff, dim=1, largest=False).indices  # [N, pref_k_eff]
+
+        # capacity = ceil(N / C)
+        target = int(math.ceil(N / num_clusters))
+
+        # CPU에서 균등 근사 할당 (메모리 절약)
+        pref_cpu = pref.cpu().numpy()
+        labels = -1 * torch.ones(N, dtype=torch.int64)
+        cluster_sizes = [0] * num_clusters
+
+        order = torch.randperm(N).tolist()  # 랜덤 순서로 할당
+
+        for i in order:
+            assigned = False
+            for r in range(pref_k_eff):
+                c = int(pref_cpu[i, r])
+                if cluster_sizes[c] < target:
+                    labels[i] = c
+                    cluster_sizes[c] += 1
+                    assigned = True
+                    break
+            if not assigned:
+                # 선호 리스트 안에서 모두 full이면 제일 가까운 클러스터에 넣되 overflow 허용
+                c = int(pref_cpu[i, 0])
+                labels[i] = c
+                cluster_sizes[c] += 1
+
+        labels = labels.to(device)
+
+        # 새 센트로이드 계산
         new_centroids = []
         for c in range(num_clusters):
             pts = x_fp32[labels == c]
             if pts.size(0) == 0:
-                new_centroids.append(centroids[c])
+                # 완전히 빈 클러스터면 랜덤 재초기화
+                ridx = torch.randint(0, N, (1,), device=device)
+                new_centroids.append(x_fp32[ridx[0]])
             else:
                 new_centroids.append(pts.mean(dim=0))
         new_centroids = torch.stack(new_centroids)
 
         if torch.allclose(new_centroids, centroids, atol=1e-4):
+            centroids = new_centroids
             break
 
         centroids = new_centroids
@@ -33,10 +82,13 @@ def kmeans_torch_gpu(x_fp32, num_clusters, num_iters=40):
 
 
 
+
+
+
 # ======================================
 # Load model (shared)
 # ======================================
-MODEL = "mistralai/Mistral-7B-Instruct-v0.3"
+MODEL = "google/gemma-2-2b-it"
 tokenizer = AutoTokenizer.from_pretrained(MODEL, use_fast=False)
 
 CACHE_DIR = "/model_cache"
@@ -65,7 +117,6 @@ def build_coarse_to_fine(centroids_fp32, hard_labels, multi_assign):
     centroids_half = centroids_norm.half().to("cuda")
 
     def coarse_to_fine(hidden, top_cluster=32, final_k=10):
-
         h = hidden.half()
         h_norm = h / (h.norm() + 1e-9)
 
@@ -177,7 +228,6 @@ def test_sentence_multi_avg_full(text, runs=10, final_k=40, top_cluster=32, n_cl
     print(f"min/max recall: {100*min(recalls):.2f}% / {100*max(recalls):.2f}%")
 
     print("\n원본 top-k:", top_exact.tolist())
-    print("원본 토큰:", tokenizer.batch_decode(top_exact.tolist()))
 
 
 tests = [

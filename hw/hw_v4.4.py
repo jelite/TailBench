@@ -1,3 +1,4 @@
+#행렬곱을 하나로 합침
 import torch
 import statistics
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -45,57 +46,49 @@ CACHE_DIR = "/model_cache"
 
 model = AutoModelForCausalLM.from_pretrained(
     MODEL,
-    dtype=torch.float16,
+    dtype=torch.float32,
     device_map="cuda",
     cache_dir=CACHE_DIR
 )
 
-W_half = model.lm_head.weight.detach().to("cuda")   # FP16
-vocab, dim = W_half.shape
-W_fp32 = W_half.float().clone()                     # FP32 
-
+W_32 = model.lm_head.weight.detach().to("cuda")   # FP16
+vocab, dim = W_32.shape
+W_32 = W_32.clone()       
+W_16 = W_32.half().clone()  
 
 
 # ======================================
 # Residual coarse-to-fine 생성 함수
-# (centroids_fp32, hard_labels, multi_assign을 입력으로 받도록 변경)
+# (centroids32, hard_labels, multi_assign을 입력으로 받도록 변경)
 # ======================================
-def build_coarse_to_fine(centroids_fp32, hard_labels, multi_assign):
+def build_coarse_to_fine(centroids, hard_labels, multi_assign):
 
     # precompute FP16 normalized centroids
-    centroids_norm = centroids_fp32 / (centroids_fp32.norm(dim=1, keepdim=True) + 1e-6)
-    centroids_half = centroids_norm.half().to("cuda")
+    centroids_norm = centroids / (centroids.norm(dim=1, keepdim=True) + 1e-6)
+    centroids_norm = centroids_norm.to("cuda")
 
     def coarse_to_fine(hidden, top_cluster=32, final_k=10):
-        
         torch.cuda.nvtx.range_push("lm_head")
-        h = hidden.half()
-        h_norm = h / (h.norm() + 1e-9)
-
-        # Stage 1 coarse
-        coarse1 = centroids_half @ h_norm    # [C]
-
-        h32 = hidden.float()
-        cent32 = centroids_fp32
+        hidden = hidden.half()
+        h_norm = hidden / (hidden.norm() + 1e-9)
 
         # projection scalars
-        proj_scalar = cent32 @ h32              # [C]
+        proj_scalar = centroids @ hidden          # [C]
 
         # projection vectors averaged
-        proj_vec = (proj_scalar.unsqueeze(1) * cent32).mean(dim=0)  # [D]
+        proj_vec = (proj_scalar.unsqueeze(1) * centroids).mean(dim=0)  # [D]
 
         # residual vector
-        residual = h32 - proj_vec               # [D]
+        residual = hidden - proj_vec               # [D]
 
         # normalize residual
         r_norm = residual / (residual.norm() + 1e-9)
 
-        # residual coarse score
-        coarse2 = cent32 @ r_norm               # [C]
-
-        # combine
+        # coarse1 + alpha * coarse2 를 한 번에 계산
         alpha = 0.35
-        coarse_final = coarse1.float() + alpha * coarse2
+        cat_vec = torch.cat((h_norm, r_norm), dim=0)                        # [2D]
+        cat_centroids = torch.cat((centroids_norm, alpha * centroids), 1)   # [C, 2D]
+        coarse_final = cat_centroids @ cat_vec                              # [C]
 
         _, topC = torch.topk(coarse_final, top_cluster)
 
@@ -103,9 +96,8 @@ def build_coarse_to_fine(centroids_fp32, hard_labels, multi_assign):
         mask_hard = torch.isin(hard_labels, topC)
         mask_soft = torch.isin(multi_assign, topC).any(dim=1)
         cand = torch.nonzero(mask_hard | mask_soft).squeeze(1)
-
-        # fine stage
-        logits_small = (W_half[cand] @ h)
+# fine stage
+        logits_small = (W_16[cand] @ hidden)
         vals, idx_local = torch.topk(logits_small, final_k)
         torch.cuda.nvtx.range_pop()
         return cand[idx_local], vals
@@ -132,15 +124,15 @@ def test_sentence_multi_avg_full(text, runs=10, final_k=40, top_cluster=32, n_cl
     # ===== baseline: full softmax top-k =====
     # warm up
     for i in range(3):
-        logits_exact = W_half @ hidden
-        logits_exact = W_half @ hidden
-        logits_exact = W_half @ hidden
+        logits_exact = W_16 @ hidden
+        logits_exact = W_16 @ hidden
+        logits_exact = W_16 @ hidden
         
     # base line
     torch.cuda.synchronize()
     start = time.time()
     torch.cuda.nvtx.range_push("A")
-    logits_exact = W_half @ hidden
+    logits_exact = W_16 @ hidden
     torch.cuda.nvtx.range_pop()
     torch.cuda.synchronize()
     base_time = time.time() - start
@@ -149,18 +141,20 @@ def test_sentence_multi_avg_full(text, runs=10, final_k=40, top_cluster=32, n_cl
     exact_set = set(top_exact.tolist())
 
     # ===== KMeans / multi-assign은 단 한 번만! =====
-    centroids_fp32, hard_labels = kmeans_torch_gpu(W_fp32, n_clusters)
+    centroids, hard_labels = kmeans_torch_gpu(W_32, n_clusters)
     hard_labels = hard_labels.int().contiguous()
-
-    dist_full = torch.cdist(W_fp32, centroids_fp32)
+    
+    dist_full = torch.cdist(W_32, centroids)
     multi_assign = torch.topk(-dist_full, k=2, dim=1).indices.int().to("cuda")
-
-    coarse_to_fine = build_coarse_to_fine(centroids_fp32, hard_labels, multi_assign)
+    centroids = centroids.half()
+    coarse_to_fine = build_coarse_to_fine(centroids, hard_labels, multi_assign)
 
     # ===== 순수 coarse-to-fine 검색 시간만 반복 측정 =====
     recalls = []
     exp_times = []
 
+    hidden = hidden.half()
+    
     for i in range(runs):
         print(f"▶ Run {i+1}/{runs}")
         
@@ -196,7 +190,10 @@ def test_sentence_multi_avg_full(text, runs=10, final_k=40, top_cluster=32, n_cl
 
 tests = [
     "When I was young, I used to",
-
+    "Explain speculative decoding simply.",
+    "Tell me the recipe for pancakes",
+    "The meaning of life is",
+    "I want to travel to",
 ]
 
 for t in tests:
@@ -206,6 +203,6 @@ for t in tests:
         t,
         runs=5,
         final_k=40,
-        top_cluster=32,
-        n_clusters=200
+        top_cluster=10,
+        n_clusters=100
     )
